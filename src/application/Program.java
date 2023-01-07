@@ -59,6 +59,10 @@ public class Program {
 				System.out.println("Invalid input");
 				sc.nextLine();
 			}
+			catch ( NumberFormatException e) {
+				System.out.println("Invalid input");
+				sc.nextLine();
+			}
 		}
 		UI.clearScreen();
 		UI.printMatch(chessMatch, captured);
